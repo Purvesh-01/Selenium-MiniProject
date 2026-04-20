@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-13T11:27:46 IST" name="Default Suite" finished-at="2026-04-13T11:29:11 IST" duration-ms="85194">
+    <groups>
+    </groups>
+    <test started-at="2026-04-13T11:27:46 IST" name="InterimProject" finished-at="2026-04-13T11:29:11 IST" duration-ms="85194">
+      <class name="test.NavigationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.NavigationTest@55b699ef]" started-at="2026-04-13T11:27:46 IST" name="setUp" finished-at="2026-04-13T11:27:51 IST" duration-ms="5746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:test.NavigationTest@55b699ef]" started-at="2026-04-13T11:27:51 IST" name="startTest" finished-at="2026-04-13T11:27:51 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.NavigationTest.navigationTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="navigationTest()[pri:0, instance:test.NavigationTest@55b699ef]" started-at="2026-04-13T11:27:51 IST" name="navigationTest" finished-at="2026-04-13T11:28:02 IST" duration-ms="10805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationTest -->
+        <test-method is-config="true" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:test.NavigationTest@55b699ef]" started-at="2026-04-13T11:28:02 IST" name="updateTestResult" finished-at="2026-04-13T11:28:02 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigationTest status=SUCCESS method=NavigationTest.navigationTest()[pri:0, instance:test.NavigationTest@55b699ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:test.NavigationTest@55b699ef]" started-at="2026-04-13T11:28:02 IST" name="startTest" finished-at="2026-04-13T11:28:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.NavigationTest.contactSalesTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="contactSalesTest()[pri:1, instance:test.NavigationTest@55b699ef]" started-at="2026-04-13T11:28:02 IST" name="contactSalesTest" finished-at="2026-04-13T11:29:06 IST" depends-on-methods="test.NavigationTest.navigationTest" duration-ms="63718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactSalesTest -->
+        <test-method is-config="true" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:test.NavigationTest@55b699ef]" started-at="2026-04-13T11:29:06 IST" name="updateTestResult" finished-at="2026-04-13T11:29:06 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactSalesTest status=SUCCESS method=NavigationTest.contactSalesTest()[pri:1, instance:test.NavigationTest@55b699ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:test.NavigationTest@55b699ef]" started-at="2026-04-13T11:29:06 IST" name="startTest" finished-at="2026-04-13T11:29:06 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.NavigationTest.windowHandling()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="windowHandling()[pri:2, instance:test.NavigationTest@55b699ef]" started-at="2026-04-13T11:29:06 IST" name="windowHandling" finished-at="2026-04-13T11:29:06 IST" depends-on-methods="test.NavigationTest.contactSalesTest" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowHandling -->
+        <test-method is-config="true" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:test.NavigationTest@55b699ef]" started-at="2026-04-13T11:29:06 IST" name="updateTestResult" finished-at="2026-04-13T11:29:06 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=windowHandling status=SUCCESS method=NavigationTest.windowHandling()[pri:2, instance:test.NavigationTest@55b699ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.NavigationTest@55b699ef]" started-at="2026-04-13T11:29:06 IST" name="tearDown" finished-at="2026-04-13T11:29:11 IST" duration-ms="4750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.NavigationTest -->
+    </test> <!-- InterimProject -->
+  </suite> <!-- Default Suite -->
+</testng-results>

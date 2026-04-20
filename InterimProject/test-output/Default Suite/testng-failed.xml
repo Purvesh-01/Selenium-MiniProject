@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="InterimProject(failed)">
+    <classes>
+      <class name="test.NavigationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="navigationTest"/>
+          <include name="contactSalesTest"/>
+          <include name="windowHandling"/>
+          <include name="startTest"/>
+          <include name="updateTestResult"/>
+        </methods>
+      </class> <!-- test.NavigationTest -->
+    </classes>
+  </test> <!-- InterimProject(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
